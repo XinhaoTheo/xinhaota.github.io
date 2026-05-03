@@ -35,14 +35,14 @@ sections:
         shape: circle # Options: circle (default), square, rounded
   - block: markdown
     content:
-      title: '📚 My Research'
+      title: '📚 Research'
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
+        I work at the intersection of **Machine Learning Systems** and **AI Infrastructure** — the engineering that makes large models trainable, fine-tunable, and servable at scale. I'm especially interested in distributed training (DeepSpeed / ZeRO), efficient post-training (LoRA, unlearning), and high-throughput LLM serving (vLLM, SGLang).
 
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
+        On the application side, I am the first author of *"Open-World Authorship Attribution"* (ACL 2025 Findings), where we built a two-stage LLM pipeline that infers the author of an anonymous research paper from text alone.
 
-        Please reach out to collaborate 😃
+        Joining **TikTok Search as ML Engineer Intern in Summer 2026**; open to chats about ML Systems / AI Infra opportunities 😃
     design:
       columns: '1'
   - block: collection
@@ -55,7 +55,7 @@ sections:
         featured_only: true
     design:
       view: article-grid
-      columns: 2
+      columns: 1
   - block: collection
     content:
       title: Recent Publications
@@ -67,43 +67,21 @@ sections:
     design:
       view: citation
   - block: collection
-    id: talks
+    id: projects
     content:
-      title: Recent & Upcoming Talks
-      filters:
-        folders:
-          - events
-    design:
-      view: card
-  - block: collection
-    id: news
-    content:
-      title: Recent News
+      title: Projects
       subtitle: ''
       text: ''
-      # Page type to display. E.g. post, talk, publication...
-      page_type: blog
-      # Choose how many pages you would like to display (0 = all pages)
-      count: 10
-      # Filter on criteria
       filters:
-        author: ''
-        category: ''
-        tag: ''
-        exclude_featured: false
-        exclude_future: false
-        exclude_past: false
-        publication_type: ''
-      # Choose how many pages you would like to offset by
-      offset: 0
-      # Page order: descending (desc) or ascending (asc) date.
-      order: desc
+        folders:
+          - projects
     design:
-      # Choose a layout view
-      view: card
-      # Reduce spacing
-      spacing:
-        padding: [0, 0, 0, 0]
+      view: article-grid
+      fill_image: false
+      columns: 2
+      show_date: false
+      show_read_time: false
+      show_read_more: false
   - block: cta-card
     demo: true # Only display this section in the HugoBlox Kit demo site
     content:
