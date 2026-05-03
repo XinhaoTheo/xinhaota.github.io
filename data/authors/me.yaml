@@ -2,115 +2,114 @@ schema: hugoblox/author/v1
 slug: me
 is_owner: true
 name:
-  display: Dr. Alex Johnson
-  given: Alex
-  family: Johnson
-  alternate: ''  # Example: 王伟
-  pronunciation: ''  # Example: Wáng Wěi
+  display: Xinhao Tan
+  given: Xinhao
+  family: Tan
+  alternate: '谭欣豪'
+  pronunciation: ''
   pronouns: he/him
-postnominals:
-  - PhD
-  - MIEEE
+postnominals: []
 status:
   icon: "☕️"
-role: Senior AI Research Scientist
+role: M.S. Student in Information Networking
 bio: |
-  Alex Johnson is a Senior AI Research Scientist at Meta AI. His research
-  has been published in top conferences like NeurIPS and ICML, with over
-  10,000 citations. Alex is passionate about pushing the boundaries of AI
-  while ensuring ethical development.
+  Xinhao Tan is an M.S. student in Information Networking at Carnegie Mellon
+  University. His interests are in Machine Learning Systems and AI
+  Infrastructure — efficient training, post-training, and serving of large
+  language models. First author of "Open-world Authorship Attribution"
+  (ACL 2025 Findings). Joining TikTok Search as ML Engineer Intern in
+  Summer 2026; open to chats about ML Systems / AI Infra opportunities.
 
 affiliations:
-  - name: Meta AI
-    url: https://ai.meta.com/
+  - name: Carnegie Mellon University
+    url: https://www.cmu.edu/
 
 links:
   - icon: at-symbol
-    url: mailto:alex.johnson@example.com
+    url: mailto:xinhaota@andrew.cmu.edu
     label: E-mail Me
-  - icon: brands/x
-    url: https://x.com/example
   - icon: brands/github
-    url: https://github.com/example
+    url: https://github.com/XinhaoTheo
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/example/
+    url: https://www.linkedin.com/in/xinhao-tan/
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=example
-  - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
+    url: https://scholar.google.com/
 
 interests:
-  - Large Language Models
-  - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
+  - Machine Learning Systems
+  - AI Infrastructure
+  - Distributed Training & Inference (DeepSpeed, vLLM, SGLang)
+  - LLM Post-training & Serving
 
 education:
-  - degree: PhD Computer Science
-    institution: Stanford University
-    start: 2015-09-01
-    end: 2019-06-30
-    summary: |
-      Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.
-    button:
-      text: Download dissertation
-      url: /resume.pdf
-      icon: hero/arrow-down-tray
-  - degree: MS Computer Science
+  - degree: M.S. in Information Networking
     institution: Carnegie Mellon University
-    start: 2013-09-01
-    end: 2015-05-31
-  - degree: BS Computer Science
-    institution: MIT
-    start: 2009-09-01
-    end: 2013-05-31
+    start: 2025-08-01
+    end: 2026-12-31
+    summary: |
+      GPA 3.67/4.00. Coursework: Database Systems, Distributed Systems,
+      Computer Networks, AI Infrastructure.
+  - degree: B.Eng. in Electrical Engineering (Minor in Artificial Intelligence)
+    institution: National University of Singapore
+    start: 2021-08-01
+    end: 2025-08-01
+    summary: |
+      GPA 4.73/5.00. Track: Internet of Things (IoT).
 
 experience:
-  - role: Senior AI Research Scientist
-    org: Meta AI
-    start: 2020-01-01
+  - role: Machine Learning Engineer Intern (Incoming)
+    org: TikTok — Search Team
+    start: 2026-05-26
+    end: 2026-08-14
     summary: |
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models.
-    button:
-      text: View portfolio
-      url: /
-      icon: hero/arrow-down-tray
-  - role: AI Research Intern
-    org: OpenAI
-    start: 2019-06-01
-    end: 2019-12-31
+      Joining the TikTok Search Engineering team in San Jose for Summer 2026.
+      Will work on the search core algorithm — content understanding (NLP /
+      CV / LLM for query–video relevance), user-behavior modeling for
+      personalization, and video understanding for authority and credibility
+      of search results.
+  - role: 3D Object-Tracking Researcher (Seasonal)
+    org: Aruvii
+    start: 2024-08-01
+    end: 2025-05-01
     summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+      LiDAR-based 3D multi-object tracking for human-security applications.
+      Built a real-time ROS/RViz pipeline (Kalman filter + Hungarian
+      data association within Fast-Poly), and an Interacting Multiple Model
+      filter with CV / CVTR motion models — 11% accuracy gain on non-linear
+      object motion.
 
 skills:
-  - name: Technical Skills
+  - name: Programming
     items:
       - label: Python
         level: 5
-      - label: Machine Learning
-        level: 5
-      - label: Cloud Computing
+      - label: C / C++ / Go
         level: 4
-  - name: Research & Communication
+      - label: Java
+        level: 4
+  - name: AI / ML Toolchains
     items:
-      - label: Academic Writing
+      - label: PyTorch
         level: 5
-      - label: Conference Presentations
+      - label: DeepSpeed · vLLM · SGLang
         level: 4
-      - label: Grant Proposals
+      - label: HuggingFace · PEFT/LoRA · LangChain
+        level: 4
+  - name: Systems & Infra
+    items:
+      - label: Docker · Kubernetes
+        level: 4
+      - label: Linux · Nginx · AWS
+        level: 4
+      - label: Redis · MySQL · Kafka · RabbitMQ
         level: 4
 
 languages:
-  - name: English
+  - name: Mandarin
     level: 5
     label: Native
-  - name: Spanish
-    level: 4
+  - name: English
+    level: 5
     label: Fluent
 
-awards:
-  - title: Best Paper Award
-    awarder: NeurIPS
-    date: "2022-12-01"
-    summary: Awarded for groundbreaking work on efficient training of large models.
-    icon: hero/trophy
+awards: []
