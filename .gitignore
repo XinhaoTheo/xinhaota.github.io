@@ -28,6 +28,18 @@ hugo_stats.json
 # Dependencies
 node_modules/
 
+# Project uses pnpm (see packageManager in package.json); ignore npm's lockfile
+package-lock.json
+
+# ============================================================================
+# Local source / scratch (not part of the site build)
+# ============================================================================
+
+# Raw paper sources, drafts, and project artifacts kept locally only
+ACL/
+SD/
+mlsys2025style/
+
 # ============================================================================
 # Environment & Configuration
 # ============================================================================
